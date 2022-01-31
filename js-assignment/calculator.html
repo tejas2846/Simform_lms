@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="calculator.png">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="5"> <input id="demo" type="text" disabled value=0></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="radian_to_deg()">DEG</button></td>
+                <td><button onclick="_exponential()">F-E</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="mclear()">MC</button></td>
+                <td><button onclick="mrecall()">MR</button></td>
+                <td><button onclick="mplus()">M+</button></td>
+                <td><button onclick="mminus()">M-</button></td>
+                <td><button onclick="mstore()">MS</button></td>
+
+            </tr>
+            <tr>
+
+                <td colspan="2">
+
+                    <div class="dropdown">
+                        <button class="dropbtn"><span>&#9727; Trignometry</span></button>
+                        <div class="dropdown-content">
+                            <button onclick="sin()">Sinθ</button>
+                            <button onclick="cos()">Cosθ</button>
+                            <button onclick="tan()">Tanθ</button>
+                            <button onclick="cot()">Cotθ</button>
+                            <button onclick="sec()">Secθ</button>
+                            <button onclick="cosec()">Cosecθ</button>
+
+                        </div>
+                    </div>
+
+                </td>
+                <td colspan="2">
+                    <div class="dropdown">
+                <button  class="dropbtn"><span>Function</span></button>
+                <div class="dropdown-content">
+                            <button onclick="textcolor1()">Text-Green</button>
+                            <button onclick="textcolor2()">Text-Pink</button>
+                            <button onclick="bgcolor1()">Background-Skyblue</button>
+                            <button onclick="bgcolor2()">Background-Grey</button>
+                        
+                        </div>
+                    </div>
+
+                    
+                    
+                </td>    
+            </tr>
+            <tr>
+                <td><button onclick="two_carret_x()">2<sup>x</sup></button></td>
+                <td><button onclick="fPI()">&pi;</button></td>
+                <td><button onclick="e()">e</button></td>
+                <td><button onclick="clearscr()">C</button></td>
+                <td><button onclick="fx()"> &#x2717;</button></td>
+
+            </tr>
+
+            <tr>
+                <td><button onclick="square()"><span>x<sup>2</sup></span></button></td>
+                <td><button onclick="one_by_x()"><span>1/x</span></button></td>
+                <td><button onclick="abs()"><span>|x|</span></button></td>
+                <td><button onclick="exp1()"><span>exp</span></button></td>
+                <td><button onclick="modulo()"><span>mod</span></button></td>
+            
+            </tr>
+            <tr>
+                <td><button onclick="sqrt()"><sup>2</sup>&#8730;x</button></td>
+                <td><button onclick="addelement('(')">(</button></td>
+                <td><button onclick="addelement(')')">)</button></td>
+                <td><button onclick="fact()">n!</button></td>
+                <td><button class="operator" onclick="divide()">&divide;</button></td>
+
+            </tr>
+            <tr>
+
+                <td><button onclick="carret()"><span>x<sup>y</sup></span></button></td>
+                <td><button class="number" onclick="addelement(7)"><span>7</span></button></td>
+                <td><button class="number" onclick="addelement(8)"><span>8</span></button></td>
+                <td><button class="number" onclick="addelement(9)"><span>9</span></button></td>
+                <td><button class="operator" onclick="multiply()"><span>x</span></button></td>
+
+            </tr>
+                
+            <tr>
+                <td><button onclick="tencarret()">10<sup>x</sup></button></td>
+                <td><button class="number" onclick="addelement(4)"><span>4</span></button></td>
+                <td><button class="number" onclick="addelement(5)"><span>5</span></button></td>
+                <td><button class="number" onclick="addelement(6)"><span>6</span></button></td>
+                <td><button class="operator" onclick="minus()"><span>-</span></button></td>
+
+            </tr>
+
+            <tr>
+
+                <td><button onclick="log()"><span>log</span></button></td>
+                <td><button class="number" onclick="addelement(1)"><span>1</span></button></td>
+                <td><button class="number" onclick="addelement(2)"><span>2</span></button></td>
+                <td><button class="number" onclick="addelement(3)"><span>3</span></button></td>
+                <td><button class="operator" onclick="plus()"><span>+</span></button></td>
+
+            </tr>
+
+            <tr>
+                <td><button onclick="ln()"><span>ln</span></button></td>
+                <td><button onclick="plus_min()"><span>+/-</span></button></td>
+                <td><button class="number" onclick="addelement(0)"><span>0</span></button></td>
+                <td><button onclick="fdot()"><span>.</span></button></td>
+                <td><button class="operator" id="equal" onclick="evaluate1()"><span>=</span></button></td>
+            </tr>
+          
+
+        </table>
+    </div>
+</body>
+
+</html>
