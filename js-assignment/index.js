@@ -41,7 +41,7 @@
     document.getElementById("demo").style.backgroundColor="grey";
             
   }
-/* ------------------                ROW NUMBER 1 DEG AND F-E LOGIC                      -------------*/
+//ROW NUMBER 1 DEG AND F-E LOGIC
 function radian_to_deg(){
 
     let result= document.getElementById("demo").value;
@@ -55,9 +55,7 @@ function _exponential(){
     document.getElementById("demo").value=Number.parseFloat(result).toExponential(3);
 
 }
- /* -------------------------------                                    -------------------------------*/
- 
- /* --------------------------------         ROW NUMBER 2-          ----------------------------------*/
+ //ROW NUMBER 2
  function mplus(){
     
     let result=document.getElementById('demo').value;
@@ -95,7 +93,7 @@ function _exponential(){
 
 
 
-/* ------------------        ROW NUMBER 3 TRIGNOMETRY AND FUNCTION LOGIV            -------------*/
+// ROW NUMBER 3 TRIGNOMETRY AND FUNCTION LOGIC 
 function sin() {
     let val = document.getElementById("demo").value;
 
@@ -137,14 +135,7 @@ function cosec() {
 
 }
     
-
-  
-
- /* ----------------------------                                  ----------------------------------*/
-
-
-
-/* ------------------                    ROW NUMBER 4                               -------------*/
+//ROW NUMBER 4                              
 
 function two_carret_x() {
     var result = document.getElementById('demo').value;
@@ -191,10 +182,7 @@ function fx() {
     }
 }
 
-
- /* ---------------------------------                                  -----------------------------*/
-
-/* ------------------                         ROW NUMBER 5                           -------------*/
+//       ROW NUMBER 5                          
 function one_by_x() 
 {
     var result = document.getElementById('demo').value;
@@ -227,10 +215,7 @@ function abs()
 
 
 
- /* -------------------------------                                  -------------------------------*/
-
-
-/* ------------------                    ROW NUMBER 6                                  -------------*/
+//ROW NUMBER 6  
 
 function sqrt() {
     var result = document.getElementById('demo').value;
@@ -257,10 +242,7 @@ function fact()
 
 }
 
- /* --------------------------------                                    ------------------------------*/
-
-
- /* ------------------                           ROW NUMBER 7                           -------------*/
+// ROW NUMBER 7
 
 
  
@@ -279,10 +261,7 @@ function fact()
  }
 
 
- /* ----------------------------                                   ----------------------------------*/
-
-
-/* ------------------                        ROW NUMBER 8                               -------------*/
+//ROW NUMBER 8   
 
 function tencarret()
      {
@@ -299,14 +278,7 @@ function minus() {
 
 }
 
-
- /* ------------------------------                                    --------------------------------*/
-
-
-
-
-
-/* ------------------                          ROW NUMBER 9                             -------------*/
+// ROW NUMBER 9
 
 function log() {
     var result = document.getElementById('demo').value;
@@ -319,10 +291,7 @@ function plus() {
 }
 
 
- /* -------------------------------                                    -------------------------------*/
-
-/* ------------------                    ROW NUMBER 10                                   -------------*/
- 
+// ROW NUMBER 10 
 function ln() {
     var result = document.getElementById('demo').value;
     document.getElementById('demo').value = Math.log(result);
@@ -372,4 +341,3 @@ function fdot()
     
    
 
-/* ------------------------------------                                    --------------------------*/
