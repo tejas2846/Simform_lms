@@ -183,7 +183,7 @@ if (isset($_POST["submit"])) {
     }
 //Both value of unit is same
     else if ($unit1 == $unit2) {
-        $_POST['output'] = (int) ($_POST["input"]);
+        $_POST['output'] =($_POST["input"]);
     }
 
 }
