@@ -1,0 +1,64 @@
+body{
+
+ background-image:url('background.jpeg');
+ background-repeat:no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+input{
+ text-align:right;
+ font-size: large;
+ font-weight:500;
+ outline:none;
+ height:25px;
+ background-color: white;
+ border:0px solid white;
+   
+ }
+ table{
+ width:40%;
+ margin-top:10%;
+ margin-left:auto;
+ margin-right:auto;
+ border-collapse:separate;
+ border-spacing:0.5em 1em;
+ }
+ caption{
+ font-size: large;
+ font-weight: 600;
+ margin-bottom:20px;
+ margin-left:-35px;
+   }
+ td{
+  font-weight:bold;
+  }
+
+  option{
+      
+  background-color:rgb(229, 238, 241);
+  font-size:110%;
+  }
+ select{
+ border:2px solid white;
+ background-color: white;;
+ height:30px;
+ outline:none;
+ }
+ button,input[type=submit]{
+  background-color: rgba(241, 245, 248, 0.979);
+  color:rgb(19, 49, 218);
+  outline: none;
+  width:75px;
+  height:30px;
+  font-size: medium;
+  font-weight: 400;
+  border:1px solid rgb(231, 230, 230);
+     
+ }
+ input[type=submit]:hover{
+   cursor:pointer;
+  }
+ a{
+  text-decoration: none;
+  color:blue;
+ }
