@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,34 +11,27 @@
     <script src="./index.js"></script>
 </head>
 <body>
-   
-    <div class="container">
-
-        <table>
+<div class="container">
+<table>
 <caption>MEASUREMENT CONVERSION</caption>
-            <tr>
-                <td><a href="./length.php">Length And Distance</a></td>
-            </tr>
-            <tr>
-                <td><a href="./area.php">Area</a></td>
-            </tr>
-
-            <tr>
-                <td><a href="./volume.php">Capacity and Volume</a></td>
-            </tr>
-            <tr>
-                <td><a href="./mass.php">Mass and Weight</a></td>
-            </tr>
-            <tr>
-                <td><a href="./speed.php">Speed</a></td>
-            </tr>
-            <tr>
-                <td><a href="./temperature.php">Temperature</a></td>
-            </tr>
-
-        </table>
-    </div>
-
+<tr>
+<td><a href="./length.php">Length And Distance</a></td>
+</tr>
+<tr>
+<td><a href="./area.php">Area</a></td>
+<tr>
+<td><a href="./volume.php">Capacity and Volume</a></td>
+</tr>
+<tr>
+<td><a href="./mass.php">Mass and Weight</a></td>
+</tr>
+<tr>
+<td><a href="./speed.php">Speed</a></td>
+</tr>
+<tr>
+<td><a href="./temperature.php">Temperature</a></td>
+</tr>
+</table>
+</div>
 </body>
-
 </html>
