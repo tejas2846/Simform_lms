@@ -107,7 +107,7 @@ if (isset($_POST["submit"])) {
 <table>
 <caption>Mass Measurement Conversion</caption>
 <td><label for="from">From: </label></td>
- <td><input  required  step=any type="number" min="-9999999999" max="9999999999" value="<?php if (isset($_POST['input'])) {echo $_POST['input'];}?>" name="input" id="input"> </td>
+ <td><input  required  step=any type="number"  value="<?php if (isset($_POST['input'])) {echo $_POST['input'];}?>" name="input" id="input"> </td>
  <td>
  <select  name="unit1" id="from">
  <option <?php if (isset($_POST["unit1"]) && $_POST["unit1"] == "g") {

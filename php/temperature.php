@@ -51,7 +51,7 @@ if (isset($_POST["submit"])) {
 <caption>Temperature Measurement Conversion<caption>
 <tr>
 <td><label for="from">From: </label></td>
-<td><input step=any required min="-9999999999" max="9999999999" type="number" value="<?php if (isset($_POST['input'])) {echo $_POST['input'];}?>" name="input" id="input"> </td>
+<td><input step=any required  type="number" value="<?php if (isset($_POST['input'])) {echo $_POST['input'];}?>" name="input" id="input"> </td>
 <td>
 <select  name="unit1" id="from">
 <option <?php if (isset($_POST["unit1"]) && $_POST["unit1"] == "c") {
