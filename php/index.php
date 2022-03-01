@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./img/logo_icon.jpg" type="image/x-icon">
     <title>Measurement Conversion!!</title>
     <link rel="stylesheet" href="./css/main.css?v=<?php echo time();?>">
-    <script src="./index.js"></script>
+    
 </head>
 <body>
 <div class="container">
